@@ -2,15 +2,17 @@
 @import './scss/abstracts/mixins';
 @import './scss/abstracts/variables';
 
-@import './Scss/card';
-
 @import './scss/base/animations';
 @import './scss/base/base';
 @import './scss/base/typography';
 @import './scss/base/utilities';
 
 @import './scss/components/button';
+@import './Scss/components/composition';
+@import './Scss/components/feature-box';
 
+@import './Scss/layout/card';
+@import './Scss/layout/grid';
 @import './scss/layout/header';
 
 @import './scss/pages/home.scss';
