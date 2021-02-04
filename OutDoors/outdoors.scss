@@ -8,10 +8,12 @@
 @import './scss/base/utilities';
 
 @import './scss/components/button';
+@import './Scss/components/card';
 @import './Scss/components/composition';
 @import './Scss/components/feature-box';
 
-@import './Scss/layout/card';
+// Fix Card Scss in 3 Pillars.html
+// @import './Scss/layout/card2';
 @import './Scss/layout/grid';
 @import './scss/layout/header';
 
