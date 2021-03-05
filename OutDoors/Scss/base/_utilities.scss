@@ -6,9 +6,16 @@
 }
 .u-margin-bottom-medium {
   margin-bottom: 4rem !important;
+  @include respond(tablet-portrait) {
+    margin-bottom: 2rem !important;
+  }
 }
 .u-margin-bottom-large {
   margin-bottom: 8rem !important;
+
+  @include respond(tablet-portrait) {
+    margin-bottom: 5rem !important;
+  }
 }
 .u-margin-top-small {
   margin-top: 1.5rem !important;

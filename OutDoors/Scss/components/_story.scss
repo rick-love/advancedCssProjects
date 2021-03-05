@@ -11,6 +11,10 @@
   //   Slants the Story
   transform: skewX(-12deg);
 
+  @include respond(phone){
+    transform: skewX(0);
+  }
+
   &__shape {
     width: 15rem;
     height: 15rem;
@@ -29,6 +33,10 @@
     // Add Skew to fix Slant in Story Class
     // Add padding-left to .story to compensate for -3rem;
     transform: translateX(-3rem) skewX(12deg);
+
+    @include respond(phone){
+      transform: translateX(-3rem) skewX(0);
+    }
   }
   &__img {
     height: 100%;
@@ -40,6 +48,9 @@
   &__text {
     //   Fixes Slant
     transform: skewX(12deg);
+    @include respond(phone){
+      transform: skewX(0);
+    }
   }
   &__caption{
       position: absolute;
